@@ -1,0 +1,49 @@
+/* Mengatur warna latar belakang seluruh halaman */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling untuk header */
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styling untuk judul utama */
+h1 {
+    margin-bottom: 5px;
+}
+
+/* Styling untuk tombol */
+#tombolAksi {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+/* Efek saat tombol disentuh mouse (hover) */
+#tombolAksi:hover {
+    background-color: #218838;
+}
+
+/* Styling untuk footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
